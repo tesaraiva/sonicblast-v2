@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BG */ 
 .bg {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,12 +49,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg__title {
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: bold;
+}
+
+.bg__subtitle {
+    font-size: 2rem;
 }
 
 .bg__text {
     z-index: 1;
+    width: 100%;
+    max-width: 920px;
+}
+
+.bg__text img {
+    width: 100%;
+    max-width: 500px;
 }
 
 .bg__overlay {
@@ -72,42 +83,52 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     position: fixed;
     width: 100%;
-    height: 66px;
+    height: 62px;
     z-index: 100;
+    padding: 1rem 0;
 }
 
 .header__bg {
     width: 100%;
-    opacity: 0.8;
-    background-color: white;
+    opacity: 0.3;
+    background-color: #121212;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: -1;
 }
 
+.header__icons {
+    
+}
+
+.header__icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
 .header__wrap {
     display: flex;
     align-items: center;
-    
+}
+
+.header__wrap .columns {
+    width: 100vw;
+    align-items: center;
 }
 
 .header__logo {
     max-width: 120px;
 }
 
-.header__right {
-    width: 75%;
+.nav {
     text-align: right;
-}
-
-.header__left {
-    width: 25%;
 }
 
 /* NAV */ 
 .nav__link {
-    color: #352d2d;
+    color: lightgrey;
     font-weight: bold;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -115,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover, .nav__link:active, .nav__link:visited {
-    color: #8e1f2c;
+    color: white;
 }
 
 .nav__link:first-of-type {
@@ -136,15 +157,15 @@ li {
     font-weight: 700;
 }
 
-li:last-of-type {
+.about__li:last-of-type {
     margin-top: 1rem;
 }
 
-li:last-of-type::before {
+.about__li:last-of-type::before {
     content: '';
 }
 
-li::before {
+.about__li::before {
     content: '·';
     margin-right: 10px;
 }
@@ -160,4 +181,20 @@ li::before {
 
 .card__headliners {
     min-height: 580px;
+}
+
+.page-footer {
+    color: lightgray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #121212;
+    margin-top: 3rem;
+}
+
+.footer__list a {
+    color: #757272;
+}
+
+.footer__list a:hover {
+    color: lightgrey;
 }
