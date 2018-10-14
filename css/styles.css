@@ -1,0 +1,163 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.wrap {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;;
+}
+
+/* BG */ 
+.bg {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.bg__title, .bg__subtitle {
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bg__title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bg__text {
+    z-index: 1;
+}
+
+.bg__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.bg__subtitle {
+    font-size: 2rem;
+}
+
+/* HEADER */ 
+.header {
+    position: fixed;
+    width: 100%;
+    height: 66px;
+    z-index: 100;
+}
+
+.header__bg {
+    width: 100%;
+    opacity: 0.8;
+    background-color: white;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__logo {
+    max-width: 120px;
+}
+
+.header__right {
+    width: 75%;
+    text-align: right;
+}
+
+.header__left {
+    width: 25%;
+}
+
+/* NAV */ 
+.nav__link {
+    color: #352d2d;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.nav__link:hover, .nav__link:active, .nav__link:visited {
+    color: #8e1f2c;
+}
+
+.nav__link:first-of-type {
+    margin-left: 0px;
+}
+
+/* CONTENT */
+.page-content {
+    margin-top: 3rem;
+}
+
+ul {
+    margin: 0px;
+    list-style: none;
+}
+
+li {
+    font-weight: 700;
+}
+
+li:last-of-type {
+    margin-top: 1rem;
+}
+
+li:last-of-type::before {
+    content: '';
+}
+
+li::before {
+    content: '·';
+    margin-right: 10px;
+}
+
+.about__list {
+    margin-top: 0px;
+}
+
+/* HEADLINERS */
+.section__headliners {
+    margin-top: 3rem;
+}
+
+.card__headliners {
+    min-height: 580px;
+}
