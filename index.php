@@ -23,17 +23,17 @@
             <div class="columns is-mobile">
                 <div class="column is-3 header__icons">
                     <nav class="nav_icon">
-                            <i class="header__icon icon-instagram-filled"></i>
-                            <i class="header__icon icon-facebook-rect"></i>      
-                            <i class="header__icon icon-soundcloud"></i>
+                            <span class="icon is-small"><i class="fab fa-instagram"></i>
+                            <span class="icon is-small"><i class="fab fa-facebook-square"></i>
+                            <span class="icon is-small"><i class="fab fa-youtube"></i>
                     </nav>
                 </div>
 
                 <div class="column is-9">
                     <nav class="nav">
-                        <a class="nav__link" href="index.html">Home</a>
-                        <a class="nav__link" href="bands.html">Bands</a>
-                        <a class="nav__link" href="contacts.html">Contacts</a>
+                        <a class="nav__link">Home</a>
+                        <a class="nav__link">Bands</a>
+                        <a class="nav__link">Contacts</a>
                         <a class="nav__link button is-danger">Shop</a>
                     </nav>
                 </div>
@@ -120,7 +120,7 @@
                         <div class="card-content">
                                 <p class="is-size-5 has-text-weight-bold">Earthless</p>
                                 <p class="is-size-6 mt-1">
-                                    Earthless is a mostly instrumental psychedelic rock band from San Diego, California consisting of guitarist Isaiah Mitchell, bassist Mike Eginton and drummer Mario Rubalcaba.
+                                    Earthless is a mostly instrumental psychedelic rock band from San Diego, California consisting of guitarist Isaiah Mitchell, bassist Mike Eginton and drummer Mario Rubalcaba. 
                                 </p>
 
                                 <a>Read More</a>
@@ -168,7 +168,7 @@
                             <p class="is-size-6">
                                 18.50€
                             </p>
-
+        
                             <a class="button is-danger mt-2">Buy</a>
                         </div>
                     </div>
